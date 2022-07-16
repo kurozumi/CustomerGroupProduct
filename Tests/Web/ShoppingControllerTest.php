@@ -37,7 +37,7 @@ class ShoppingControllerTest extends AbstractShoppingControllerTestCase
      */
     protected $product;
 
-    public function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
