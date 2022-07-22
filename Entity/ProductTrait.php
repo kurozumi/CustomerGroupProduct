@@ -1,6 +1,6 @@
 <?php
 /**
- * This file is part of CustomerGroupProduct
+ * This file is part of CustomerGroupProduct42
  *
  * Copyright(c) Akira Kurozumi <info@a-zumi.net>
  *
@@ -10,15 +10,15 @@
  * file that was distributed with this source code.
  */
 
-namespace Plugin\CustomerGroupProduct\Entity;
+namespace Plugin\CustomerGroupProduct42\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Eccube\Annotation\EntityExtension;
-use Plugin\CustomerGroup\Entity\Group;
+use Plugin\CustomerGroup42\Entity\Group;
 
 /**
  * Class ProductTrait
- * @package Plugin\CustomerGroupProduct\Entity
+ * @package Plugin\CustomerGroupProduct42\Entity
  *
  * @EntityExtension("Eccube\Entity\Product")
  */
@@ -27,7 +27,7 @@ trait ProductTrait
     /**
      * @var Group
      *
-     * @ORM\ManyToOne(targetEntity="Plugin\CustomerGroup\Entity\Group")
+     * @ORM\ManyToOne(targetEntity="Plugin\CustomerGroup42\Entity\Group")
      * @ORM\JoinColumn(referencedColumnName="id")
      */
     private $registerGroup;

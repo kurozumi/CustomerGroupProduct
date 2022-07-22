@@ -1,6 +1,6 @@
 <?php
 /**
- * This file is part of CustomerGroupProduct
+ * This file is part of CustomerGroupProduct42
  *
  * Copyright(c) Akira Kurozumi <info@a-zumi.net>
  *
@@ -10,20 +10,20 @@
  * file that was distributed with this source code.
  */
 
-namespace Plugin\CustomerGroupProduct\Tests\Web;
+namespace Plugin\CustomerGroupProduct42\Tests\Web;
 
 
 use Eccube\Entity\Customer;
 use Eccube\Entity\ProductClass;
 use Eccube\Tests\Web\AbstractShoppingControllerTestCase;
-use Plugin\CustomerGroup\Tests\TestCaseTrait;
+use Plugin\CustomerGroup42\Tests\TestCaseTrait;
 
 class ShoppingControllerTest extends AbstractShoppingControllerTestCase
 {
     use TestCaseTrait;
 
     /**
-     * @var \Plugin\CustomerGroup\Entity\Group
+     * @var \Plugin\CustomerGroup42\Entity\Group
      */
     protected $group;
 

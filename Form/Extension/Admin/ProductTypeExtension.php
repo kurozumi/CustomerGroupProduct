@@ -1,6 +1,6 @@
 <?php
 /**
- * This file is part of CustomerGroupProduct
+ * This file is part of CustomerGroupProduct42
  *
  * Copyright(c) Akira Kurozumi <info@a-zumi.net>
  *
@@ -10,13 +10,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Plugin\CustomerGroupProduct\Form\Extension\Admin;
+namespace Plugin\CustomerGroupProduct42\Form\Extension\Admin;
 
 
 use Doctrine\Common\Collections\Criteria;
 use Doctrine\ORM\EntityRepository;
 use Eccube\Form\Type\Admin\ProductType;
-use Plugin\CustomerGroup\Entity\Group;
+use Plugin\CustomerGroup42\Entity\Group;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\AbstractTypeExtension;
 use Symfony\Component\Form\FormBuilderInterface;

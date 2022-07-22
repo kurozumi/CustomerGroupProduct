@@ -3,7 +3,7 @@ on:
   release:
     types: [ published ]
 env:
-  PLUGIN_CODE: CustomerGroupProduct
+  PLUGIN_CODE: CustomerGroupProduct42
 jobs:
   deploy:
     name: Build
